@@ -2,7 +2,6 @@
 
 A metaclass that allows to extend a class with methods from another.
 
-
 ## Example
 ```python
 from django.contrib.auth.models import User
@@ -23,7 +22,7 @@ class UserExtension(object):
 # >>> assert u.in_group("crazy_group") == False
 ```
 
-# TODO
+## TODO
 
 The real reason for this metaclass is to detect if we are overriding something.
 
